@@ -1,10 +1,15 @@
 package com.somnus.accessModifier;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:PassByValueDemo
+ *@descript:java只有按值传递，没有按引用传递
+ *@date:2016年6月8日 上午11:24:44
+ *@author San
+ *@version:V1.0
+ */
 public class PassByValueDemo {
 
-	/**
-	 * java按值传递，
-	 */
 	 int in = 5;
 	String str = new String("good");   
 	char[] ch = { 'a', 'b', 'c',97 };   
@@ -20,7 +25,7 @@ public class PassByValueDemo {
         System.out.print(ex.in+" and "+ex.str + " and ");   
         System.out.println(ex.ch);   
         
-        //5 and good and gbca
+        //输出结果：5 and good and gbca
     }   
 	
 	

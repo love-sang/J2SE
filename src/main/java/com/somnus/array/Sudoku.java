@@ -1,5 +1,13 @@
 package com.somnus.array;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:Sudoku
+ *@descript:
+ *@date:2016年6月8日 下午2:05:09
+ *@author San
+ *@version:V1.0
+ */
 public class Sudoku {
 	/** 存储数字的数组 */
 	static int[][] n = new int[9][9];

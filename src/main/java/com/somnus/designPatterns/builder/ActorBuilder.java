@@ -1,12 +1,12 @@
 package com.somnus.designPatterns.builder;
-
 /**
- * @Title: ActorBuilder.java
- * @Package com.somnus.designPatterns.builder
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月24日 下午3:35:42
- * @version V1.0
+ * 
+ *@Project:J2SE
+ *@class:ActorBuilder
+ *@descript:
+ *@date:2016年6月8日 下午4:24:51
+ *@author San
+ *@version:V1.0
  */
 // 角色建造器：抽象建造者
 public abstract class ActorBuilder {

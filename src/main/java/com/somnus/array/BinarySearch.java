@@ -1,9 +1,12 @@
 package com.somnus.array;
-
 /**
- * 二分查找法
- * @author Administrator
- *
+ * 
+ *@Project:J2SE
+ *@class:BinarySearch
+ *@descript:二叉树查找
+ *@date:2016年6月8日 下午1:59:22
+ *@author San
+ *@version:V1.0
  */
 public class BinarySearch {
 
@@ -15,8 +18,7 @@ public class BinarySearch {
 			middle = (low+high)/2;//0 6    4 6    6 6
 			for(int i = 0;i < array.length;i++){
 				System.out.print(array[i]+" ");
-				if(i == middle)//3 5 6 紧随最中间的指向 后面 打印分隔符
-				{
+				if(i == middle){//3 5 6 紧随最中间的指向 后面 打印分隔符
 					System.out.print("$$  ");
 				}
 			}
@@ -41,9 +43,7 @@ public class BinarySearch {
 	public static void main(String[] args){
 		int[] array = {7,3,9,5,6,8,1};
 		int[] array1 = BubbleSort.bubbleSort(array);
-		
 		int index = binarySearch(array1,1);
 		System.out.println("所在的位置:"+index);
-
 	}
 }

@@ -6,7 +6,15 @@ import org.apache.commons.codec.digest.DigestUtils;
 import java.util.Arrays;
 
 import org.junit.Test;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:CommonsCodec
+ *@descript: CommonsCodec 编码
+ *@date:2016年6月8日 上午11:39:45
+ *@author San
+ *@version:V1.0
+ */
 public class CommonsCodec {
 
 	@Test

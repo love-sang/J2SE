@@ -8,7 +8,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-
+/**
+ *@Project:J2SE
+ *@class:StringArray
+ *@descript:
+ *@date:2016年6月8日 下午2:04:51
+ *@author San
+ *@version:V1.0
+ */
 public class StringArray {
 
 	public static void main(String[] args) {

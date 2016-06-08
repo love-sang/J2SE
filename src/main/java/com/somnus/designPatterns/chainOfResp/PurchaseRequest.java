@@ -1,12 +1,12 @@
 package com.somnus.designPatterns.chainOfResp;
-
 /**
- * @Title: PurchaseRequest.java
- * @Package com.somnus.designPatterns.chainOfResp
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月24日 下午5:25:21
- * @version V1.0
+ * 
+ *@Project:J2SE
+ *@class:PurchaseRequest
+ *@descript:
+ *@date:2016年6月8日 下午4:43:34
+ *@author San
+ *@version:V1.0
  */
 // 采购单：请求类
 class PurchaseRequest {

@@ -1,7 +1,15 @@
 package com.somnus.annotation;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:AnnotationParsing
+ *@descript:
+ *@date:2016年6月8日 上午11:34:20
+ *@author San
+ *@version:V1.0
+ */
 public class AnnotationParsing {
 	public static void main(String[] args) {
 		  for (Method method : AnnotationDemo.class.getMethods()) {

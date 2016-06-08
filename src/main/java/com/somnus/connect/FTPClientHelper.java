@@ -18,7 +18,15 @@ import org.apache.commons.net.ftp.FTPReply;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:FTPClientHelper
+ *@descript:ftp连接
+ *@date:2016年6月8日 下午2:08:15
+ *@author San
+ *@version:V1.0
+ */
 public class FTPClientHelper {
 	/**log捕获异常*/
     private transient Logger log = LoggerFactory.getLogger(FTPClientHelper.class);

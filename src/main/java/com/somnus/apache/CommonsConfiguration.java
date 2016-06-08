@@ -4,7 +4,15 @@ import java.util.Iterator;
 
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:CommonsConfiguration
+ *@descript:
+ *@date:2016年6月8日 上午11:47:32
+ *@author San
+ *@version:V1.0
+ */
 public class CommonsConfiguration {
 
 	public void configuration(){

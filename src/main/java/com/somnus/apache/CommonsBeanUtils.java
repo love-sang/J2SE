@@ -8,7 +8,15 @@ import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.commons.lang.reflect.MethodUtils;
 import org.junit.Test;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:CommonsBeanUtils
+ *@descript:CommonsBeanUtils 克隆对象
+ *@date:2016年6月8日 上午11:35:49
+ *@author San
+ *@version:V1.0
+ */
 public class CommonsBeanUtils {
 
 	@Test

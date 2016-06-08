@@ -4,7 +4,15 @@ import java.util.Calendar;
 
 import org.joda.time.DateTime;
 import org.junit.Test;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:JodaDate
+ *@descript:
+ *@date:2016年6月8日 下午2:11:50
+ *@author San
+ *@version:V1.0
+ */
 public class JodaDate {
 
 	@Test

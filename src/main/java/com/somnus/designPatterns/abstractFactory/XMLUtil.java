@@ -5,13 +5,14 @@ import java.io.File;
 import org.dom4j.Document;
 import org.dom4j.io.SAXReader;
 
-/** 
- * @Title: XMLUtil.java 
- * @Package com.somnus.designPatterns.abstractFactory
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月25日 上午11:25:47 
- * @version V1.0 
+/**
+ * 
+ *@Project:J2SE
+ *@class:XMLUtil
+ *@descript:
+ *@date:2016年6月8日 下午2:14:32
+ *@author San
+ *@version:V1.0
  */
 public class XMLUtil {
     //该方法用于从XML配置文件中提取图表类型，并返回类型名  

@@ -16,7 +16,15 @@ import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.io.LineIterator;
 import org.junit.Test;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:CommonsIo
+ *@descript:
+ *@date:2016年6月8日 上午11:52:47
+ *@author San
+ *@version:V1.0
+ */
 public class CommonsIo {
 
 	  @Test

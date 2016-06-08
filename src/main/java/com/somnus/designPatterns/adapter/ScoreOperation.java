@@ -1,12 +1,13 @@
 package com.somnus.designPatterns.adapter;
 
 /**
- * @Title: ScoreOperation.java
- * @Package com.somnus.designPatterns.adapter
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月25日 下午1:54:44
- * @version V1.0
+ * 
+ *@Project:J2SE
+ *@class:ScoreOperation
+ *@descript:
+ *@date:2016年6月8日 下午4:13:28
+ *@author San
+ *@version:V1.0
  */
 // 抽象成绩操作类：目标接口
 public interface ScoreOperation {

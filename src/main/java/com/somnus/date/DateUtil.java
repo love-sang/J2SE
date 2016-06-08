@@ -5,7 +5,15 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:DateUtil
+ *@descript:
+ *@date:2016年6月8日 下午2:11:34
+ *@author San
+ *@version:V1.0
+ */
 public class DateUtil {
 
 	// 格式：年－月－日 小时：分钟：秒

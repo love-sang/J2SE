@@ -16,14 +16,18 @@ import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.commons.lang3.time.DateUtils;
 import org.junit.Test;
-
 /**
- * StringUtils.isEmpty() 字符串是否为空
- * CollectionUtils.isEmpty() 集合是否为空
- * ArrayUtils.isEmpty() 数组是否为空
- * NumberUtils.isNumber() 判断是否为数字
- * @author Administrator
- *
+ * 
+ *@Project:J2SE
+ *@class:CommonsLang
+ *@descript:
+ *StringUtils.isEmpty() 字符串是否为空
+ *CollectionUtils.isEmpty() 集合是否为空
+ *ArrayUtils.isEmpty() 数组是否为空
+ *NumberUtils.isNumber() 判断是否为数字
+ *@date:2016年6月8日 上午11:53:40
+ *@author San
+ *@version:V1.0
  */
 public class CommonsLang {
 
@@ -77,7 +81,11 @@ public class CommonsLang {
         System.out.println(StringUtils.isNumeric("454534"));// true
         
         /**
-         * 判断是否是空格字符如null
+         * 判断字符串是否为空则StringUtils.isEmpty();
+         * 判断字符串是否为null则StringUtils.isBlank();
+         */
+        /**
+         * 判断是否是空格字符
          * StringUtils.isBlank(null)      = true
          * StringUtils.isBlank("")        = true
          * StringUtils.isBlank(" ")       = true 
@@ -89,14 +97,14 @@ public class CommonsLang {
          * 判断是否是空字符串
          * StringUtils.isEmpty(null)      = true
          * StringUtils.isEmpty("")        = true
-         * StringUtils.isEmpty(" ")       = false *
+         * StringUtils.isEmpty(" ")       = false 
          * StringUtils.isEmpty("bob")     = false
          * StringUtils.isEmpty("  bob  ") = false
          */
         System.out.println(StringUtils.isEmpty("   "));
-        // 将数组中的内容以@分隔
+        // 将数组中的内容以@分隔(注意join返回类型为String而split返回类型为数组)
         System.out.println(StringUtils.join(new String[] { "1", "2", "3" }, "@"));//1@2@3
-        // 将集合中的内容以,分隔
+        // 将集合中的内容以@分隔
         System.out.println(StringUtils.join(Arrays.asList("1", "2", "3"), "@"));//1@2@3
         // 在左边加下字符,使之总长度为6
         System.out.println(StringUtils.leftPad("abc", 6, 'T'));//TTTabc

@@ -2,12 +2,12 @@ package com.somnus.designPatterns.chainOfResp;
 
 /**
  * 
- * @Title: Approver.java
- * @Package com.somnus.designPatterns.chainOfResp
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月24日 下午5:21:58
- * @version V1.0
+ *@Project:J2SE
+ *@class:Approver
+ *@descript:
+ *@date:2016年6月8日 下午4:41:05
+ *@author San
+ *@version:V1.0
  */
 // 审批者类：抽象处理者
 public abstract class Approver {

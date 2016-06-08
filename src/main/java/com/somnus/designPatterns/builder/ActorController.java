@@ -1,12 +1,13 @@
 package com.somnus.designPatterns.builder;
 
 /**
- * @Title: ActorController.java
- * @Package com.somnus.designPatterns.builder
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月24日 下午3:40:21
- * @version V1.0
+ * 
+ *@Project:J2SE
+ *@class:ActorController
+ *@descript:
+ *@date:2016年6月8日 下午4:26:10
+ *@author San
+ *@version:V1.0
  */
 // 游戏角色创建控制器：指挥者
 public class ActorController {

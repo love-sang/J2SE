@@ -1,7 +1,15 @@
 package com.somnus.array;
 
 import java.util.Arrays;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:ArrayCopy
+ *@descript:
+ *@date:2016年6月8日 下午1:55:06
+ *@author San
+ *@version:V1.0
+ */
 public class ArrayCopy {
 
 	public static void main(String[] args) {

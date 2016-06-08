@@ -1,9 +1,13 @@
 package com.somnus.array;
 
 /**
- * 冒泡排序
- * @author Administrator
- *
+ * 
+ *@Project:J2SE
+ *@class:BubbleSort
+ *@descript:冒泡排序
+ *@date:2016年6月8日 下午2:02:57
+ *@author San
+ *@version:V1.0
  */
 public class BubbleSort {
 

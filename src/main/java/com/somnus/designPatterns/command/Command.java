@@ -1,12 +1,13 @@
 package com.somnus.designPatterns.command;
 
-/** 
- * @Title: Command.java 
- * @Package com.somnus.designPatterns.command 
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月26日 上午9:26:18 
- * @version V1.0 
+/**
+ * 
+ *@Project:J2SE
+ *@class:Command
+ *@descript:
+ *@date:2016年6月8日 下午4:56:49
+ *@author San
+ *@version:V1.0
  */
 //抽象命令类  
 public abstract class Command {  

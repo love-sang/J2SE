@@ -1,5 +1,13 @@
 package com.somnus.async;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:Customer
+ *@descript:顾客
+ *@date:2016年6月8日 下午2:06:53
+ *@author San
+ *@version:V1.0
+ */
 public class Customer {
 
 	public static void main(String[] args) {
@@ -19,5 +27,6 @@ public class Customer {
 		/*System.out.println("cake2 = " + cake2.getCake());
 		System.out.println("cake3 = " + cake3.getCake());*/
 		System.out.println("main END");
+
 	}
 }

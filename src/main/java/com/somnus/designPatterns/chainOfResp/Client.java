@@ -1,5 +1,13 @@
 package com.somnus.designPatterns.chainOfResp;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:Client
+ *@descript:
+ *@date:2016年6月8日 下午4:43:52
+ *@author San
+ *@version:V1.0
+ */
 public class Client {
 
 	public static void main(String[] args) {

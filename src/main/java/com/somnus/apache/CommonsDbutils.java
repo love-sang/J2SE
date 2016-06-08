@@ -10,7 +10,15 @@ import org.apache.commons.dbutils.DbUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.MapListHandler;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:CommonsDbutils
+ *@descript:
+ *@date:2016年6月8日 上午11:48:24
+ *@author San
+ *@version:V1.0
+ */
 public class CommonsDbutils {
 
 	public static void main(String[] args) {

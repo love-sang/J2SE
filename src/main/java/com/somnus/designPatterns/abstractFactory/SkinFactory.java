@@ -1,12 +1,13 @@
 package com.somnus.designPatterns.abstractFactory;
 
 /**
- * @Title: SkinFactory.java
- * @Package com.somnus.designPatterns.abstractFactory
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月25日 上午11:59:25
- * @version V1.0
+ * 
+ *@Project:J2SE
+ *@class:SkinFactory
+ *@descript:
+ *@date:2016年6月8日 下午2:14:15
+ *@author San
+ *@version:V1.0
  */
 // 界面皮肤工厂接口：抽象工厂
 public interface SkinFactory {

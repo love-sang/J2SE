@@ -3,7 +3,15 @@ package com.somnus.date;
 import java.util.Calendar;
 
 import org.apache.commons.lang.time.DateFormatUtils;
-
+/**
+ * 
+ *@Project:J2SE
+ *@class:LoopDate
+ *@descript:
+ *@date:2016年6月8日 下午2:11:58
+ *@author San
+ *@version:V1.0
+ */
 public class LoopDate {
 
 	public static void main(String[] args) {

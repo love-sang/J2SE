@@ -1,12 +1,12 @@
 package com.somnus.designPatterns.bridge;
-
-/** 
- * @Title: Image.java 
- * @Package com.somnus.designPatterns.bridge 
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月24日 下午5:16:39 
- * @version V1.0 
+/**
+ * 
+ *@Project:J2SE
+ *@class:Image
+ *@descript:
+ *@date:2016年6月8日 下午4:14:51
+ *@author San
+ *@version:V1.0
  */
 //抽象图像类：抽象类  
 public abstract class Image {  

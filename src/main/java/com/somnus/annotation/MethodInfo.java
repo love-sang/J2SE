@@ -6,8 +6,6 @@ import java.lang.annotation.Inherited;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-
-
 /** 
  * 注解方法不能有参数
  * 注解方法的返回类型局限于原始类型，字符串，枚举，注解，或以上类型构成的数组
@@ -20,7 +18,6 @@ import java.lang.annotation.Target;
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MethodInfo {
-
 	    String author() default "Somnus";
 	    String date();
 	    int revision() default 1;

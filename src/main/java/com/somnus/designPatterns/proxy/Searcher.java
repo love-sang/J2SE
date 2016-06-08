@@ -13,7 +13,7 @@ public interface Searcher {
 }
 class RealSearcher implements Searcher{
 
-    @Override
+    
     public String doSearch(String userId, String keyword) {
         System.out.println(String.format("用户'%s'使用关键词'%s'查询商务信息！", userId,keyword));
         return "返回具体内容";  
@@ -25,7 +25,7 @@ class ProxySearcher implements Searcher {
     private AccessValidator validator;
     private Logger logger;
 
-    @Override
+    
     public String doSearch(String userId, String keyword) {
         // 如果身份验证成功，则执行查询
         if (this.validate(userId)) {

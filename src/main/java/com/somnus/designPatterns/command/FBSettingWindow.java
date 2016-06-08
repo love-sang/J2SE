@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Title: FBSettingWindow.java
- * @Package com.somnus.designPatterns.command
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月26日 上午9:24:48
- * @version V1.0
+ * 
+ *@Project:J2SE
+ *@class:FBSettingWindow
+ *@descript:
+ *@date:2016年6月8日 下午5:08:28
+ *@author San
+ *@version:V1.0
  */
 public class FBSettingWindow {
     private String title; // 窗口标题

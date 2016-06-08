@@ -1,12 +1,13 @@
 package com.somnus.designPatterns.bridge;
 
-/** 
- * @Title: ImageImp.java 
- * @Package com.somnus.designPatterns.bridge 
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月24日 下午5:18:04 
- * @version V1.0 
+/**
+ * 
+ *@Project:J2SE
+ *@class:ImageImp
+ *@descript:
+ *@date:2016年6月8日 下午4:19:52
+ *@author San
+ *@version:V1.0
  */
 //抽象操作系统实现类：实现类接口  
 public interface ImageImp {  

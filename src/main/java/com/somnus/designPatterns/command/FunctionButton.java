@@ -1,12 +1,13 @@
 package com.somnus.designPatterns.command;
 
 /**
- * @Title: FunctionButton.java
- * @Package com.somnus.designPatterns.command
- * @Description: TODO
- * @author Somnus
- * @date 2015年6月26日 上午9:25:56
- * @version V1.0
+ * 
+ *@Project:J2SE
+ *@class:FunctionButton
+ *@descript:
+ *@date:2016年6月8日 下午5:09:05
+ *@author San
+ *@version:V1.0
  */
 public class FunctionButton {
     private String name; // 功能键名称
